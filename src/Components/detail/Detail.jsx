@@ -37,6 +37,16 @@ export default function Detail() {
                 <span>photo_2024.png</span>
                 <img src="./download.png" alt="" className="icon" />
             </div>
+            <div className="photoItem">
+              <div className="photoDetail">
+                <img
+                  src="https://imgs.search.brave.com/2yuE8S2MfO4IWVaGYFgOmekDCpHsIrA8IXN11Tspwd4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3RmYXNzZXRz/Lm5ldC9ocmx0eDEy/cGw4aHEvNE4xTmVv/SFRhVDhuSTB4N3Ax/akNHay81YTYwNTRh/NTA0NmI3NzQ5YTZi/NzhhZDNjYTFlYjU3/Zi93YXRlci1zcGxh/c2gtY2xyLXNodXR0/ZXJzdG9ja18yNTg0/MjE4MDUuanBnP2Zp/dD1maWxsJnc9NDgw/Jmg9Mjcw"
+                  alt=""
+                />
+                </div>
+                <span>photo_2024.png</span>
+                <img src="./download.png" alt="" className="icon" />
+            </div>
           </div>
         </div>
         <div className="option">
@@ -46,6 +56,7 @@ export default function Detail() {
           </div>
         </div>
         <button>Block User</button>
+        <button className="logout">Log Out</button>
       </div>
     </div>
   );
