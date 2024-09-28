@@ -2,6 +2,7 @@ import Chat from "./Components/chat/Chat"
 import Detail from "./Components/detail/Detail"
 import List from "./Components/list/List"
 import Login from "./Components/login/Login"
+import Notification from "./Components/notification/Notification"
 
 const App = () => {
 
@@ -17,7 +18,9 @@ const App = () => {
           <Detail />
           </>
         ): (<Login />)
+
       }
+      <Notification />
     </div>
   )
 }
